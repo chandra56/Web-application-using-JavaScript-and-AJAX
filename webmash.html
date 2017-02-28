@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="webmash.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2MztTI31thmu_TipwBGLhLTfoO0sn7BA" type="text/javascript"></script>
+	<script>
+	function initialize(){
+	initMap();
+}
+	</script>
+  </head>
+  <body onload="initialize();">
+    <button id="main" onclick="hellomain();">Clear</button><br><br>
+    <div id="map" style="width: 600px; height: 500px;"></div><br/>
+    <div id="output">&nbsp;</div>
+  </body>
+</html>
+
